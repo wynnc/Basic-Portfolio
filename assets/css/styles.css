@@ -8,13 +8,36 @@ body{
     max-width: 960px;
 }
 
+
 .headers{
+    
     border-color: #ccc;
-    color: #4aaaa5;
     font-size: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h1{
+    background-color: #4aaaa5;
+    color: #fff;
+    float: left;
+}
+
+nav{
+    float: right:
+}
+
+li{
+    display: inline;
+}
+main{
+    clear: both;
+}
+h2{
+    color: #4aaaa5
+
+}
+
 footer{
     background-color: #666;
+    color: #ddd;
 }
