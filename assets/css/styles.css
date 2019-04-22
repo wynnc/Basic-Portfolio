@@ -118,3 +118,17 @@ input[type=submit]{
     margin: 5px;
     padding: 10px;
 }
+
+.wrapper{
+    background-color: #fff;
+    /* background-image: url(../images/memphis-mini.png); */
+    border: 2px solid #ddd;
+    color: #777;
+    height: 500px;
+    /* letter-spacing: 2px; */
+    /* line-height: 30px; */
+    margin: auto;
+    max-width: 960px;
+    padding: 20px;
+    /* word-spacing: 1px;   */
+}
