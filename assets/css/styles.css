@@ -22,7 +22,7 @@ main{
     letter-spacing: 2px;
     line-height: 30px;
     margin: auto;
-    max-width: 960px;
+    max-width: 920px;
     padding: 20px;
     word-spacing: 1px;  
 }
@@ -75,7 +75,7 @@ h2{
     border-bottom: 1px solid #777;
 }
 
-img{
+#bee{
     float: left;
     padding: 10px;
 }
@@ -121,14 +121,30 @@ input[type=submit]{
 
 .wrapper{
     background-color: #fff;
-    /* background-image: url(../images/memphis-mini.png); */
     border: 2px solid #ddd;
     color: #777;
     height: 500px;
-    /* letter-spacing: 2px; */
-    /* line-height: 30px; */
-    margin: auto;
-    max-width: 960px;
+    margin: 20px auto;
+    max-width: 920px;
     padding: 20px;
-    /* word-spacing: 1px;   */
+
+}
+
+.container{
+    
+    position: relative;
+    float: left;
+    padding: 10px;
+
+}
+
+.portfolio{
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    width: 200px;
+    padding: 5px 0;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px;
 }
