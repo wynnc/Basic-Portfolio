@@ -71,7 +71,8 @@ main{
 }
 
 h2{
-    color: #4aaaa5
+    color: #4aaaa5;
+    border-bottom: 1px solid #777;
 }
 
 img{
@@ -92,4 +93,28 @@ footer{
     margin: 20px;
     padding: 30px 0 0;
     text-align: center;
+}
+
+form{
+    background-color: #fff; 
+    margin: auto;
+    max-width: 960px;
+}
+
+#name,
+input[type=email],
+#message{
+    padding: 10px 0;
+    width: 100%;
+}
+
+#message{
+    height: 100px;
+
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
 }
