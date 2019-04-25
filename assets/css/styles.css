@@ -21,7 +21,7 @@ main{
     color: #777;
     letter-spacing: 2px;
     line-height: 30px;
-    margin: auto;
+    margin: 20px auto;
     max-width: 920px;
     padding: 20px;
     word-spacing: 1px;  
@@ -49,6 +49,8 @@ h1{
 
 nav{   
     float: right; 
+    margin-right: 200px;
+    margin-top: 10px;
 }
 
 a{
@@ -90,15 +92,15 @@ footer{
     background-color: #666;
     color: #ddd;
     border-top: 5px solid #4aaaa5;
-    margin: 20px;
     padding: 30px 0 0;
     text-align: center;
 }
 
 form{
     background-color: #fff; 
-    margin: auto;
-    max-width: 960px;
+    margin: 20px auto;
+    max-width: 920px;
+    padding: 20px;
 }
 
 #name,
